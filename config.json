@@ -21,7 +21,7 @@
             "trade": {
                 "sleep_time": 30,
                 "items": {
-                    "not_for_trade": [],
+                    "not_for_trade": [16477149823, 164204164, 928908332, 1082932, 151787264, 134210943426188, 567531362, 33337041, 108147339, 83386772340225, 987022351, 24826737, 76692407],
                     "not_accepting": []
                 },
                 "algorithm": {
@@ -31,25 +31,25 @@
                         "rap_only_base": false
                     },
                     "thresholds": {
-                        "min_receiving_value_when_downgrading": 1.11,
-                        "max_giving_value_when_upgrading": 1.07,
-                        "max_edge_value": 1.15,
-                        "min_trade_send_value_total": 500
+                        "min_receiving_value_when_downgrading": 1.001,
+                        "max_giving_value_when_upgrading": 1.02,
+                        "max_edge_value": 1.04,
+                        "min_trade_send_value_total": 0
                     },
                     "modifiers": {
-                        "base_divisor": 1200,
-                        "demand_multiplier": 150,
-                        "rare_multiplier": 50,
-                        "lower_rap_only_item": 0.95,
-                        "lower_projected_item": 0
+                        "base_divisor": 1000,
+                        "demand_multiplier": 125,
+                        "rare_multiplier": 40,
+                        "lower_rap_only_item": 1,
+                        "lower_projected_item": 0.25
                     },
                     "penalties": {
-                        "bulk_penalty_rate": 0.02,
-                        "upgrade_penalty_multiplier": 1.10
+                        "bulk_penalty_rate": 0.005,
+                        "upgrade_penalty_multiplier": 1.05
                     },
                     "performance": {
-                        "batch_size": 3000,
-                        "max_pairs": 200000
+                        "batch_size": 5000,
+                        "max_pairs": 50000
                     },
                     "upgrade": {
                         "min_items": 2,
@@ -60,8 +60,8 @@
                         "max_items": 1
                     },
                     "item_ratio_constraints": {
-                        "max_item_ratio_upgrade": 0.75,
-                        "min_item_ratio_upgrade": 0.10
+                        "max_item_ratio_upgrade": 0.90,
+                        "min_item_ratio_upgrade": 0.05
                     }
                 }
             },
@@ -69,6 +69,7 @@
         }
     ]
 }
+
 
 
 
